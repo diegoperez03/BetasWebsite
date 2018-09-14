@@ -1,0 +1,137 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+div .b {
+
+    size:12px;
+    font-weight: 700;
+}
+.pic {
+    /* The image used */
+    background-image: url("main1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#end{
+    display:flex;
+    justify-content: end;
+}
+
+#start{
+    color:white;
+    font-size: 20px;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.btn {
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border: none !important;
+  border-radius: 300px !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+ 
+}
+
+.btn-primary {
+  background-color: #5f36a0 !important;
+  border-color: #5f36a0 !important;
+  opacity: .75 !important;
+}
+
+.size{
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+ /* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background:none !important;
+    color: white;
+  
+}
+
+/* Twitter */
+.fa-twitter {
+    background: none !important;
+    color: white;
+} 
+
+.fa-instagram {
+    background: none !important;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: none !important;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#txt{ 
+    font-weight: 1000; 
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;"
+    text-shadow: 8px 7px 30px rgba(150, 150, 150, 1);
+    
+}
+
+div .a{
+     text-shadow: 15px 15px 30px black;
+     font-size: 7vh ;
+     font-weight: 900;
+     padding:12vh;
+    
+}
+
+
+
+
+
+
+img {
+  background-size:50px !important;
+}
+
+.image{
+  size:40px;
+}
+
+
+@media(max-width:1000px) {
+
+  #txt{
+    font-size: 4vw;
+  }
+}

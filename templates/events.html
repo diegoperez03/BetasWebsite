@@ -1,0 +1,213 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'Stallion/events.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'Stallion/bootstrap.min.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>UCSB BETAS</title>
+</head>
+<body>
+<header>
+  <div class ="header">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+    <div class="container">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> ☰
+        </button>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active" >
+                          <a href="/" class="nav-link"> 
+                          <img src="{% static 'Stallion/nav.png' %}" width="auto"
+                          style="height:55px !important; margin: -65px; width:70px;">
+                          </a>
+                </li>
+                <li class="active">
+                    <a href="/home" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="/actives" class="nav-link">Actives</a>
+                </li>
+                <li>
+                    <a href="/events" class="nav-link">Events</a>
+                </li>
+                <li>
+                    <a href="/strolling" class="nav-link">Strolling</a>
+                </li>
+                <li>
+                    <a href="/recruitment" class="nav-link">Recruitment</a>
+                </li>
+
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                    <a href="https://www.facebook.com/UCSBBetas08/" class="nav-link"><i class="fa fa-facebook fa-lg"></i></a>
+                <li>
+                    <a href="https://www.instagram.com/ucsb_betas/" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a>
+                <li>
+                    <a href="/snap" class="nav-link"><i class="fa fa-snapchat-ghost fa-lg"></i></a>
+                </li>
+                    <a href="https://twitter.com/ucsbbetas" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+</header>
+  <!-- 
+    Calendar of fall events 
+    Previous events some sort of slideshow
+  -->
+  <main >
+      <div class="album py-5" style="background-color: #f0f0f5">
+          <div class="container">
+            <div class="row" style ="width:100%">
+                <div class="col-md-12">
+                  <div class="card mb-12 shadow-sm">
+                       <h5> Fall 2018 Events</h5>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="card mb-12 shadow-sm">
+                       <h6> Bienvenida 2018</h6>
+            
+                       <div class="card-body">
+                        <div class ="float" style="width: 50%">
+                            <img class="image" src="{% static 'Stallion/events/first.jpg' %}" />
+                          </div>
+                          <div class ="float text-center" style="margin-left: 25px; width: 45%">
+                            <h1>Tuesday, Sept. 25th </h1>
+                            <p class="card-text">
+                                Come see all of the multicultural and latinx organizations UCSB has to offer. Meet the brothers for the first time and see them perform on stage !
+
+                                <br><br><b>Location:</b> San Miguel Lawn
+
+                                <br><b>Time:</b> 1pm-3pm
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="card mb-12 shadow-sm">
+                       <h6>ΛΘΝ Social</h6>
+            
+                       <div class="card-body">
+                        <div class ="float" style="width: 50%">
+                            <img class="image" src="{% static 'Stallion/events/fifth.jpg' %}" />
+                          </div>
+                          <div class ="float text-center" style="margin-left: 25px; width: 45%">
+                            <h1>Tuesday, Sept. 25th </h1>
+                            <p class="card-text">
+                                Social with the ladies of Lambda Theta Nu SororityInc.
+                                <br><br><b>Location:</b> TBD
+
+                                <br><b>Time:</b> 8pm-9pm
+                               
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="card mb-12 shadow-sm">
+                       <h6>Dodgeball with the Betas</h6>
+            
+                       <div class="card-body">
+                        <div class ="float" style="width: 50%">
+                            <img class="image" src="{% static 'Stallion/events/second.jpg' %}" />
+                          </div>
+                          <div class ="float text-center" style="margin-left: 25px; width: 45%">
+                            <h1>Wednesday, Sept. 26th </h1>
+                            <p class="card-text">
+                                It's time for dodgeball ! Join a team and let the best dodger win. Remember, If you can dodge a wrench you can dodge a ball!
+
+                                <br><br><b>Location:</b> TBD
+
+                                <br><b>Time:</b> 6pm-8pm
+                               
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="card mb-12 shadow-sm">
+                       <h6>GameNight with the Betas</h6>
+            
+                       <div class="card-body">
+                        <div class ="float" style="width: 50%">
+                            <img class="image" src="{% static 'Stallion/events/third.png' %}" />
+                          </div>
+                          <div class ="float text-center" style="margin-left: 25px; width: 45%">
+                            <h1>Thursday, Sept. 27th </h1>
+                            <p class="card-text">
+                                A New Foe Has Appeared ! See if you can bring down the Smash Kings on Campus on Final Destination ! See who is the champion on Madden and Fifa as well !
+
+                                <br><br><b>Location:</b> TBD
+
+                                <br><b>Time:</b> 6pm-8pm
+                               
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="card mb-12 shadow-sm">
+                       <h6>ΣΑΖ Social</h6>
+            
+                       <div class="card-body">
+                        <div class ="float" style="width: 50%">
+                            <img class="image" src="{% static 'Stallion/events/fourth.jpg' %}" />
+                          </div>
+                          <div class ="float text-center" style="margin-left: 25px; width: 45%">
+                            <h1>Friday, Sept. 28th </h1>
+                            <p class="card-text">
+                                Social with the ladies of Sigma Alpha Zeta Inc.
+                                <br><br><b>Location:</b> TBD
+
+                                <br><b>Time:</b> 8pm-9pm
+                               
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="card mb-12 shadow-sm">
+                       <h6>BBQ with the Betas</h6>
+            
+                       <div class="card-body">
+                        <div class ="float" style="width: 50%">
+                            <img class="image" src="{% static 'Stallion/events/sixth.jpg' %}" />
+                          </div>
+                          <div class ="float text-center" style="margin-left: 25px; width: 45%">
+                            <h1>Saturday, Sept. 29th </h1>
+                            <p class="card-text">
+                                BBQ with the betas
+                                <br><br><b>Location:</b> GOleta Beach
+
+                                <br><b>Time:</b> 11am-1am
+                               
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+               
+
+            </div>
+          </div>
+      </div>
+   </main>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

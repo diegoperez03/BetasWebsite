@@ -1,0 +1,866 @@
+<!--Actives
+
+	Circle pictures of all actives
+	Name:
+	Quarter/Year Crossed:
+	Line Name:
+	Favorite Quote:
+	Social media??? -->
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="{% static 'Stallion/actives.css' %}">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<title>UCSB BETAS</title>
+    <style type="text/css">
+      .card-text{
+  font-size: .80rem !important;
+}
+      img {
+       height:375px !important;
+  
+      }
+    </style>
+	</head>
+	<body>
+		<header>
+			 <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+  				  <div class="container">
+      				  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> ☰
+      				  </button>
+        			  <div id="navbar" class="navbar-collapse collapse">
+          			
+          			     <ul class="nav navbar-nav">
+                     <li class="active" >
+                          <a href="/" class="nav-link"> 
+                          <img src="{% static 'Stallion/nav.png' %}" width="auto"
+                          style="height:55px !important; margin: -65px; width:70px;">
+                          </a>
+                     </li>
+             			   <li class="active">
+                  			  <a href="/home" class="nav-link">Home</a>
+             			   </li>
+              			   <li>
+                  			  <a href="/actives" class="nav-link">Actives</a>
+                		   </li>
+             			   <li>
+                   			  <a href="/events" class="nav-link">Events</a>
+             			   </li>
+              			   <li>
+                   			  <a href="/strolling" class="nav-link">Strolling</a>
+                		   </li>
+              			   <li>
+                  			  <a href="/recruitment" class="nav-link">Recruitment</a>
+               			   </li>
+
+           				</ul>
+          			    <ul class="nav navbar-nav ml-auto">
+                        	<a href="https://www.facebook.com/UCSBBetas08/" class="nav-link"><i class="fa fa-facebook fa-lg"></i></a>
+              			    <li>
+                    	    <a href="https://www.instagram.com/ucsb_betas/" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a>
+                            <li>
+                            <a href="/snap" class="nav-link"><i class="fa fa-snapchat-ghost fa-lg"></i></a>
+                			</li>
+                   			<a href="https://twitter.com/ucsbbetas" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a>
+           				</ul>
+        			</div>
+        <!--/.nav-collapse -->
+    			</div>
+			</nav>
+		</header>
+		<main>
+			<section class="jumbotron text-center">
+			  <br>
+       		  <br>
+       		  <br>
+       		  <div class="container">
+           		<h1 class="jumbotron-heading">2018-2019 Actives</h1>
+       		  </div>
+
+       		  <br>
+       		  <br>
+       		  <br>
+      		</section>
+
+      		<div class="album py-5 bg-light">
+        	  <div class="container">
+         		<div class="row">
+            	  <div class="col-md-4">
+             		 <div class="card mb-4 shadow-sm"
+             		 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                     height:625px !important;" >
+               		   <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/elbert.png' %}" data-holder-rendered="true">
+               		   <div class="card-body">
+                 		 <p class="card-text">
+                 		 	<b>Name:</b> Elbert Flores
+                 		 	<br>
+                 		 	<b>Line Name:</b> Testament
+                 		 	<br>
+                 			<b>Line/Date Crossed:</b> Pi/Spring 2017
+                 			<br>
+                 			<b>Favorite Quote:</b> "Some things can't exist without others"
+                 			<br>
+                 		  <b>Career Goal:</b> Lawyer/Teacher
+                 			
+                 		 </p>
+                 		 <div class="d-flex justify-content-between align-items-center">
+                  		  <div class="ml-auto">
+						            	<a href="https://www.instagram.com/burr_1203/" class="fa fa-instagram"  target ="_blank"
+							style="color:#7a00cc;"></a>
+                    	  </div>
+                  		</div>
+                	   </div>
+              		 </div>
+           		  </div>
+
+           		  <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                    height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/daniel.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                    <b>Name:</b> Daniel Covarrubias 
+                      <br>
+                     <b>Line Name:</b> Hokage
+                      <br>
+                      <b>Line/Date Crossed:</b> Rho/Spring 2018
+                      <br>
+                      <b>Favorite Quote:</b> "Consistency is Key"
+                      <br>
+                      <b>Career Goal:</b> "Oral and Maxilliofacial Surgeon"
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/Dannieboi25/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/daniel.covarrubias.3150?fb_dtsg_ag=AdyKbQe4UC_pqCom5AXTvUI1A-cchVpziFluGxcbcWEhRQ%3AAdyx61EjXn85L-rUHEWmQfitVEjhuj79TeEmpVVID6mllg" class="fa fa-facebook"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                          <a href="https://twitter.com/dannieboi25" class="fa fa-twitter" target ="_blank"
+              style="color:#7a00cc;"></a>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+           		  <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                    height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/adrian.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                     <b>Name:</b> Adrian Olivas 
+                      <br>
+                   <b>Line Name:</b> Nous
+                      <br>
+                      <b>Line/Date Crossed:</b> Xi/Spring 2016
+                      <br>
+                      <b>Favorite Quote:</b> "We are a anti hazing organization" 
+                      <br>
+                      <b>Career Goal:</b> "College Prep Counselor"
+                    
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/olives.a/" class="fa fa-instagram" target="_blank" 
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/profile.php?id=100002416798429" class="fa fa-facebook" target="_blank" 
+                          style="color:#7a00cc;"></a>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+
+        		<div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                    height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/steve.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Steve Jarquin Alfaro 
+                      <br>
+                      <b>Line Name:</b> C.H.A.P.O
+                      <br>
+                      <b>Line/Date Crossed:</b> Rho/Spring 2018
+                      <br>
+                      <b>Favorite Quote:</b> “Your mind- it is like a gun, you wanna load it up with little... bitty... bullets... of knowledge”
+                      -Ashtray (Don’t be a Menace)
+                      <br>
+                      <b>Career Goal:</b> "Not Sure Yet"
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/stiffy_steve/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/obey.steve.3?fb_dtsg_ag=AdyKbQe4UC_pqCom5AXTvUI1A-cchVpziFluGxcbcWEhRQ%3AAdyx61EjXn85L-rUHEWmQfitVEjhuj79TeEmpVVID6mllg" class="fa fa-facebook"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+           		  <div class="col-md-4" >
+                 <div class="card mb-4 shadow-sm x"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                    height:625px !important;" >
+                     <img class="card-img-top" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/diego.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b>  Diego Perez
+                      <br>
+                      <b>Line Name:</b> El Gato
+                      <br>
+                      <b>Line/Date Crossed:</b> Xi/Spr 2016
+                      <br>
+                      <b>Favorite Quote:</b> "Just Build lol"
+                      <br>
+                      <b>Career Goal:</b> Web/Software Developer
+                     </p>
+                     <div class="d-flex justify-content-between align-items-flex-end" >
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/gauchodiego6/?hl=en" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/diego.biersack.9" class="fa fa-facebook"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                            <a href="https://www.linkedin.com/in/diego-perez-951204113/" class="fa fa-linkedin"
+                             style="color:#7a00cc;" target ="_blank"></a>
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+           		   <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/paco.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                     <b>Name:</b> Francisco Hinojosa
+                      <br>
+                      <b>Line Name:</b> Zeus
+                      <br>
+                      <b>Line/Date Crossed:</b> Xi/ Spr 2016
+                      <br>
+                      <b>Favorite Quote:</b> "Don’t look down on anyone unless you’re helping them up"
+                      <br>
+                      <b>Career Goal:</b> Own my own marketing company 
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/pacosnation14/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/francisco.hinojosa.37?fb_dtsg_ag=AdyKbQe4UC_pqCom5AXTvUI1A-cchVpziFluGxcbcWEhRQ%3AAdyx61EjXn85L-rUHEWmQfitVEjhuj79TeEmpVVID6mllg" class="fa fa-facebook"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                           <a href="https://twitter.com/pacosnation14" class="fa fa-twitter"
+                           style="color:#7a00cc;" target = "_blank"></a>
+                            <a href="https://www.linkedin.com/in/francisco-hinojosa-b9a83810a/" class="fa fa-linkedin"
+                             style="color:#7a00cc;" target ="_blank"></a>
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+        		<div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/michael.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b>Michael Park
+                      <br>
+                      <b>Line Name:</b> Apollo
+                      <br>
+                      <b>Line/Date Crossed:</b> Omicron/Winter 2016
+                      <br>
+                      <b>Favorite Quote:</b> "Do the right thing when no one is looking"
+                      <br>
+                      <b>Career Goal:</b> Aviator
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/mjhp2/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/mjhp25?fb_dtsg_ag=AdyKbQe4UC_pqCom5AXTvUI1A-cchVpziFluGxcbcWEhRQ%3AAdyx61EjXn85L-rUHEWmQfitVEjhuj79TeEmpVVID6mllg" class="fa fa-facebook"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                           <a href="https://twitter.com/mjhp25" class="fa fa-twitter"
+                           style="color:#7a00cc;" target = "_blank"></a>
+                      
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+           		  <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/jodeci.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                   <b>Name:</b> Jodeci Cervantes
+                      <br>
+                    <b>Line Name:</b> Aamir
+                      <br>
+                      <b>Line/Date Crossed:</b> Pi/Spring2017
+                      <br>
+                      <b>Favorite Quote:</b> "Never a failure, always a lesson"
+                      <br>
+                      <b>Career Goal:</b> Earning my degree in Mechanical Engineering 
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/jodecicervantes/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                        
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+           		  <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/payan.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                     <b>Name:</b> Anthony Payan
+                      <br>
+                     <b>Line Name:</b> Tenaz
+                      <br>
+                      <b>Line/Date Crossed:</b> Pi/Spring 2017
+                      <br>
+                      <b>Favorite Quote:</b> “At the end of the day we can endure much more than we think we can.”
+                      <b>Career Goal:</b> Go to grad school 
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/mjhp2/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/mjhp25?fb_dtsg_ag=AdyKbQe4UC_pqCom5AXTvUI1A-cchVpziFluGxcbcWEhRQ%3AAdyx61EjXn85L-rUHEWmQfitVEjhuj79TeEmpVVID6mllg" class="fa fa-facebook"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                           <a href="https://twitter.com/mjhp25" class="fa fa-twitter"
+                           style="color:#7a00cc;" target = "_blank"></a>
+                      
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+        		<div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/hector.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Hectory Y. Serrano 
+                      <br>
+                      <b>Line Name:</b> Hermès
+                      <br>
+                      <b>Line/Date Crossed:</b> Rho/Spring 2018
+                      <br>
+                      <b>Favorite Quote:</b> “Nah.” -Rosa Parks
+                      <br>
+                      <b>Career Goal:</b> Analyst/Economist
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/hector_serrano99/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+
+                           <a href="https://twitter.com/HSerrano99" class="fa fa-twitter"
+                           style="color:#7a00cc;" target = "_blank"></a>
+                      
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+                <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/lara.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                     <b>Name:</b> Juan Lara de Nova
+                      <br>
+                      <b>Line Name:</b> Diablito
+                      <br>
+                      <b>Line/Date Crossed:</b> Spring/2018
+                      <br>
+                      <b>Favorite Quote:</b> "The meaning of life is to give life a meaning.”
+                      <br>
+                      <b>Career Goal:</b> CEO of my own engineering companies and non-profit organizations 
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://instagram.com/juanlaradn" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="facebook.com/juanlaradn" class="fa fa-facebook"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                          
+                           <a href="https://www.linkedin.com/in/juan-lara-de-nova-053731146/" class="fa fa-linkedin"
+                             style="color:#7a00cc;" target ="_blank"></a>
+                        
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+
+                <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/sunny.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                     <b>Name:</b> Santiago Aguiar
+                      <br>
+                     <b>Line Name:</b> Talache
+                      <br>
+                      <b>Line/Date Crossed:</b> Spring/201
+                      <br>
+                      <b>Favorite Quote:</b>“They say time is money but really, it’s not. If we ever go broke, time is all we got.”- J Cole 
+                      <br>
+                      <b>Career Goal:</b> Counselor
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/sunny.pelon27/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/santiago.aguiar.7965?fb_dtsg_ag=AdyKbQe4UC_pqCom5AXTvUI1A-cchVpziFluGxcbcWEhRQ%3AAdyx61EjXn85L-rUHEWmQfitVEjhuj79TeEmpVVID6mllg" class="fa fa-facebook"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                           <a href="https://twitter.com/suny_pelon" class="fa fa-twitter"
+                           style="color:#7a00cc;" target = "_blank"></a>
+                      
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+        		<div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/manzo.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Juan Manzo Jr
+                      <br>
+                    <b>Line Name:</b> Habakkuk
+                      <br>
+                     <b>Line/Date Crossed:</b> Omicron/ winter 2017
+                      <br>
+                      <b>Favorite Quote:</b>“Hard work beats talent when talent doesn’t work hard"
+                      <br>
+                      <b>Career Goal:</b> Software Engineer
+                      
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                          <a href="https://www.instagram.com/Juan_naysh/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/profile.php?id=100010270215381&lst=100003565366075%3A100010270215381%3A1536611171"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                           
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+
+
+           		 <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/joel.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Joel Garibay Ramirez
+                      <br>
+                   <b>Line Name:</b> O.S.O
+                      <br>
+                    <b>Line/Date Crossed:</b> Rho/ Spring 2018
+                      <br>
+                      <b>Favorite Quote:</b>"If you're going through hell, keep going."
+                      <br>
+                      <b>Career Goal:</b> Psychologist/Psychiatrist 
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                        <a href="https://www.instagram.com/joel_gar/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/joel.garibay.1865" class="fa fa-facebook"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                           <a href="https://twitter.com/joel_gar8?lang=en" class="fa fa-twitter"
+                           style="color:#7a00cc;" target = "_blank"></a>
+                            <a href="https://www.linkedin.com/in/joel-garibay-ramirez-39a45813b" class="fa fa-linkedin"
+                             style="color:#7a00cc;" target ="_blank"></a>
+                           
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+        		<div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/robert.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Robert Acuna
+                      <br>
+                   <b>Line Name:</b> Cobra
+                      <br>
+                    <b>Line/Date Crossed:</b> Pi/ Spring 2017
+                      <br>
+                      <b>Favorite Quote:</b>“Love yourz”-J.Cole
+                      <br>
+                      <b>Career Goal:</b> Acquire a corporate job in the field of math  
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                        <a href="https://www.instagram.com/joel_gar/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          <a href="https://www.facebook.com/joel.garibay.1865" class="fa fa-facebook"
+                          target ="_blank"
+                          style="color:#7a00cc;"></a>
+                           <a href="https://twitter.com/joel_gar8?lang=en" class="fa fa-twitter"
+                           style="color:#7a00cc;" target = "_blank"></a>
+                            <a href="https://www.linkedin.com/in/joel-garibay-ramirez-39a45813b" class="fa fa-linkedin"
+                             style="color:#7a00cc;" target ="_blank"></a>
+                           
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+           		  <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/armando.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Armando Garcia
+                      <br>
+                   <b>Line Name:</b> Luz Verde
+                      <br>
+                    <b>Line/Date Crossed:</b> Rho/ Spring 2018
+                      <br>
+                      <b>Favorite Quote:</b>
+                      <br>
+                      <b>Career Goal:</b>  
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                        <a href="https://www.instagram.com/fukn_mando/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          
+                           
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+           		  <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/darryl.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Darryl Burnett Jr.
+                      <br>
+                   <b>Line Name:</b> Maui
+                      <br>
+                    <b>Line/Date Crossed:</b> Pi/ Spring 2017
+                      <br>
+                      <b>Favorite Quote:</b>
+                      <br>
+                      <b>Career Goal:</b>  
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                        <a href="https://www.instagram.com/dsmoovvv/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          
+                           
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+                <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/pizarro.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Francisco Refugio Pizarro
+                      <br>
+                   <b>Line Name:</b> Corazon de Leon
+                      <br>
+                    <b>Line/Date Crossed:</b> Rho/ Spring 2018
+                      <br>
+                      <b>Favorite Quote:</b>
+                      <br>
+                      <b>Career Goal:</b>  
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                        <a href="https://www.instagram.com/papacito_swolito/?hl=en" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          
+                           
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+                <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/uriate.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Francisco Uriate 
+                      <br>
+                   <b>Line Name:</b> Descartes
+                      <br>
+                    <b>Line/Date Crossed:</b> Rho/ Spring 2018
+                      <br>
+                      <b>Favorite Quote:</b>
+                      <br>
+                      <b>Career Goal:</b>  
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                        <a href="https://www.instagram.com/cisco.35/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          
+                           
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+                <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/jessie.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Jessie Pantoja
+                      <br>
+                   <b>Line Name:</b> Vaquerito
+                      <br>
+                    <b>Line/Date Crossed:</b> Omicron/ Winter 2017
+                      <br>
+                      <b>Favorite Quote:</b>
+                      <br>
+                      <b>Career Goal:</b>  
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                        <a href="https://www.instagram.com/jessiepantoja/" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a>
+                          
+                           
+                        
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+              <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/joseph.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Joseph Rico
+                      <br>
+                   <b>Line Name:</b> MendigoSadBoi
+                      <br>
+                    <b>Line/Date Crossed:</b> Omicron/ Winter 2017
+                      <br>
+                      <b>Favorite Quote:</b>
+                      <br>
+                      <b>Career Goal:</b>  
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">                       
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+                <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/levi.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Levi Santos
+                      <br>
+                   <b>Line Name:</b> Lobo
+                      <br>
+                    <b>Line/Date Crossed:</b> Omicron/ Winter 2017
+                      <br>
+                      <b>Favorite Quote:</b>
+                      <br>
+                      <b>Career Goal:</b>  
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                       <a href="https://www.instagram.com/levilikethepants/?hl=en" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a> 
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+              <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/luis.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Luis Mejia
+                      <br>
+                   <b>Line Name:Fibonacci</b> 
+                      <br>
+                    <b>Line/Date Crossed:</b> Omicron/ Winter 2017
+                      <br>
+                      <b>Favorite Quote:</b>
+                      <br>
+                      <b>Career Goal:</b>  
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                       <a href="https://www.instagram.com/luiscuhhh/?hl=en" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a> 
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+                <div class="col-md-4">
+                 <div class="card mb-4 shadow-sm"
+                 style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+                  height:625px !important;">
+                     <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: auto; width: 100%; display: block;" src="{% static 'Stallion/actives/manny.jpg' %}" data-holder-rendered="true">
+                     <div class="card-body">
+                     <p class="card-text">
+                      <b>Name:</b> Manuel Benavides
+                      <br>
+                   <b>Line Name:</b> Machievalli  
+                      <br>
+                    <b>Line/Date Crossed:</b> Xi/ Spring 2016
+                      <br>
+                      <b>Favorite Quote:</b>
+                      <br>
+                      <b>Career Goal:</b>  
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="ml-auto">
+                       <a href="https://www.instagram.com/mannybeee007/?hl=en" class="fa fa-instagram" target ="_blank"
+              style="color:#7a00cc;"></a> 
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+
+
+        		
+               </div>
+            </div>
+        </div>
+		</main>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+  </html>

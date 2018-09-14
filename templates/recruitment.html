@@ -1,0 +1,147 @@
+<!-- Recruitment
+
+	Introspective speech of what it means to joing and why 
+		(jumbotron stallion to the right)
+	Requirements to be a brother (jumbotron of key to the left)
+	Contact information to recruitment officer , form to get on our email list
+
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	use cards for each section
+	https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/push-elements-left-or-right-with-the-float-property
+
+	https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/use-the-css-transform-scale-property-to-scale-an-element-on-hover
+	-->
+
+	{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="{% static 'Stallion/recruitment.css' %}">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<title>UCSB BETAS</title>
+	</head>
+	<body>
+		<header>
+			 <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+  				  <div class="container">
+      				  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> ☰
+      				  </button>
+        			  <div id="navbar" class="navbar-collapse collapse">
+          			 	 <!-- <img class="navbar-brand" src="{% static 'Stallion/logo2.jpg' %}" style="font-size:1px !important;"> -->
+          			     <ul class="nav navbar-nav">
+          			       <li class="active" >
+	                          <a href="/" class="nav-link"> 
+	                          <img src="{% static 'Stallion/nav.png' %}" width="auto"
+	                          style="height:55px !important; margin: -65px; width:70px;">
+                          	  </a>
+                     	   </li>
+             			   <li class="active">
+                  			  <a href="/home" class="nav-link">Home</a>
+             			   </li>
+              			   <li>
+                  			  <a href="/actives" class="nav-link">Actives</a>
+                		   </li>
+             			   <li>
+                   			  <a href="/events" class="nav-link">Events</a>
+             			   </li>
+              			   <li>
+                   			  <a href="/strolling" class="nav-link">Strolling</a>
+                		   </li>
+              			   <li>
+                  			  <a href="/recruitment" class="nav-link">Recruitment</a>
+               			   </li>
+
+           				</ul>
+          			    <ul class="nav navbar-nav ml-auto">
+                        	<a href="https://www.facebook.com/UCSBBetas08/" class="nav-link"><i class="fa fa-facebook fa-lg"></i></a>
+              			    <li>
+                    	    <a href="https://www.instagram.com/ucsb_betas/" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a>
+                            </li>
+                            <a href="/snap" class="nav-link"><i class="fa fa-snapchat-ghost fa-lg"></i></a>
+                			</li>
+                   			<a href="https://twitter.com/ucsbbetas" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a>
+           				</ul>
+        			</div>
+    			  </div>
+    			</div>
+			</nav>
+		</header>
+
+		<section style="background-color:#eeeeee;">
+		  <div id ="container">
+		  	<div id = "first" class = "a">
+		  		<img src = "{% static 'Stallion/actives.png' %}"
+		  			id ="headerPic">
+
+		  	</div>
+		  	<div id ="second"
+		  		style="padding:70px 0; text-align: center;">
+		  		<h6 id ="Recruit">RECRUITMENT </h6>
+		  		<h6 id ="Recruit">AND THE NEXT STEPS</h6>
+		  	</div>
+		  	<div id ="clear">
+		  	</div>
+		  </div>
+		</section>
+		<div id ="container">
+		 <div class = "left" id = "first">
+		  <article style="background-color:#white;">
+			<div class="">
+				<div class = "card">
+				<h2>The Beginning</h2>
+				<p style="font-size: 1.5vw;">We are so excited that you are interested in joining that special and distinctive community of Sigma Lambda Beta men.&nbsp; And we also want to acknowledge that joining a fraternal organization such as Sigma Lambda Beta is a significant decision in one’s life.&nbsp;&nbsp; Because of this it is important that you have as much information as possible so that you can make the best decision for yourself.&nbsp; It is imperative that you do your due diligence and learn about those fraternities that you believe are of interest to you.&nbsp; For example, it is important to know the organizations history, mission and values so that they align with your own.&nbsp; There is no one formulaic equation that anyone can provide you.&nbsp; It simply has to be “right” for you.&nbsp; What we have learned as this process will require that you be candid and honest with yourself!</p>
+			</div>
+			<div class = "card">
+				<h2>Eligibility Requirements</h2>
+				<ul>
+					<li style="font-size: 1.5vw;">Be passionate about Sigma Lambda Beta’s history, mission and values</li>
+					<li style="font-size: 1.5vw;">Membership is only available for collegiate men who are enrolled full-time at a college or university where there is an&nbsp;<a href="http://sigmalambdabeta.com/entities/">active collegiate entity</a> of Sigma Lambda Beta</li>
+					<li style="font-size: 1.5vw;">Interested men must have a 2.50 cumulative GPA at the time of application</li>
+					<li style="font-size: 1.5vw;">If this is your first semester in college, you must show that you graduated high school with an unweighted G.P.A. of 3.0 on a 4.0 scale</li>				
+					<li style="font-size: 1.5vw;">While not required, you are encouraged to attend informational meetings hosted by the entity where you wish to join</li>	
+					<li style="font-size: 1.5vw;">Membership is only available to collegiate men who have received an official bid by a collegiate entity of Sigma Lambda Beta</li>
+				</ul>
+			</div>
+			<div class = "card">
+				<h2>Membership Education</h2>
+				<p style="font-size: 1.5vw;">Sigma Lambda Beta conducts membership intake via our membership education program. &nbsp;The length of the membership education process will vary from campus to campus &nbsp;based on individual schedules, your school’s Fraternity and Student Life requirements, academic calendars, holiday calendars, etc., but will typically last an average of eight (8) weeks and will not exceed ten (10) weeks. We encourage you to reach out to the officers at our collegiate entity on your campus to get specific information.</p>
+				<p style="font-size: 1.5vw;">We take great pride in our membership education program. &nbsp;Through our membership education program&nbsp;you will be taught the history, mission and values of Sigma Lambda Beta as well as the local entity. &nbsp;Through the course of the program, you will have the opportunity to meet brothers from the local entity as well as from nearby entities to start building the bonds of brotherhood that holds our nation together.&nbsp;&nbsp;Additionally, you will receive leadership training and development to ensure that you will be successful not only on your collegiate campus, but in your professional endeavors later in life.</p>
+				<p style="font-size: 1.5vw;">As you go through the membership education process, you will be required to pay new member fees. &nbsp;Please contact the treasurer of our local entity for&nbsp;current fees.</p>
+			</div>
+			<div class = "card ">
+				<h2>Requirements of Membership</h2>
+				<p style="font-size: 1.5vw;">Once you have become a brother of Sigma Lambda Beta, you will be expected to maintain the following standards:</p>
+				<ul>
+					<li style="font-size: 1.5vw;">Maintaining a term GPA of at least a 2.50</li>
+					<li style="font-size: 1.5vw;">Abide by the rules set forth by the Fraternity</li>
+					<li style="font-size: 1.5vw;">Follow the rules and bylaws set by the local entity</li>
+					<li style="font-size: 1.5vw;">Follow the rules and guidelines set by your college/university</li>
+					<li style="font-size: 1.5vw;">Fulfill your membership dues obligations&nbsp;per semester (Please contact the treasurer of our local entity for current fees)</li>
+					<li style="font-size: 1.5vw;">Attend National and Regional conferences (this requirement is per entity)</li>
+				</ul>
+			</div>
+			</div>
+		</article>
+	  </div>
+
+	  <div class = "right parent" id ="second">
+	  	 <img class="image1" src="{% static 'Stallion/paddle.jpeg' %}" />
+  		 <img class="image2" src="{% static 'Stallion/stallion.jpg' %}" />
+  		 <img class="image3" src="{% static 'Stallion/key.jpg' %}"
+  		 style="position: absolute;
+  top: 1650px;
+  width:100%;
+  left: 0px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;" />
+	  </div>
+	  <div id ="clear"></div>
+	  </div>
+	  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	</body>
+</html>

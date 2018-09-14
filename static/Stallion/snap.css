@@ -1,0 +1,14 @@
+body {
+    /* The image used */
+    background-image: url("snap.jpg");
+
+    /* Full height */
+ 	   height: 100%; 
+
+    /* Center and scale the image nicely */
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}

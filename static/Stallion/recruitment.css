@@ -1,0 +1,91 @@
+ .container{
+  
+}
+
+ 
+#Recruit{
+	font-size:3vw !important;
+
+	font-weight:700;
+	font-family: "Hind", "Avenir", "Helvetica", arial;
+}
+
+
+.cell{
+    margin-right: 25px;
+}
+
+p,
+li{
+    opacity: .85;
+}
+
+h2{
+    font-weight: 700 !important;
+    font-size: 3rem !important;
+}
+
+article{
+    margin:50px !important;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 25px;
+  width:100%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+  left: 0;
+  
+
+}
+.image2 {
+  position: absolute;
+  top: 600px;
+  width:100%;
+  left: 0px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+}
+
+
+
+#header {
+    width: 100%;
+    background-color: red;
+    height: 30px;
+}
+
+#container {
+    width: 90%;
+    
+    margin: auto;
+}
+#first {
+    width:55%;
+    float: left;
+    
+       
+}
+#second {
+    width:45%;
+    float: right;
+
+    
+}
+#clear {
+    clear: both;
+}
+
+#headerPic{
+    width: 100%;
+    height: auto;
+}
+
+.card{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+  padding:10px;
+}

@@ -1,0 +1,54 @@
+
+
+
+
+#a{
+	
+    min-height:100% !important;
+    background-image: url("jumboStroll.png") ;
+
+    /* Full height */
+  	
+
+    /* Center and scale the image nicely */
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height:750px;
+
+}
+p{
+	opacity: .80;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h6{
+	font-size:3vh !important ;
+	position:center;
+	text-align: center;
+	color:#4d0099;
+	font-weight:700 !important;
+	
+}
+
+h5{
+	font-size:5vh !important ;
+	position:center;
+	text-align: center;
+	color:#4d0099;
+	font-weight:1000 !important;
+	
+	
+}
+
+.card{
+	background-color:#ececf9 !important;
+}
+
+.col-md-6{
+	margin-top: 50px;
+}
+
+iframe{
+	height: 300px;
+}

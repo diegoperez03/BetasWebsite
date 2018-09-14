@@ -1,0 +1,80 @@
+.bg-events{
+	background-image: url('event.jpg');
+	background-size: 450px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+.m{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+}
+
+
+.bg-actives{
+	background-image: url('actives.JPG');
+	background-size: 450px;
+	background-repeat: no-repeat;
+
+	background-position: center;
+}
+
+
+.bg-main{
+	background-image: url('logo.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left center;
+
+		
+}
+
+.bg-main2{
+	background-image: url('crest.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+.bg-recruit{
+	background-image: url('recruit.jpg');
+	background-size: 450px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bg-stroll{
+	background-image: url('stroll.jpg');
+	background-size: 450px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+.bg-dark{
+	background-color:#5f36a0 !important;
+}
+
+p{
+	font-weight: 700
+
+}
+
+
+@media( max-width: 800px) {
+	p{
+	font-size:4vw !important;
+	}
+}
+
+.card{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+  padding:10px;
+}
