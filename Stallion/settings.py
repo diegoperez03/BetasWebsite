@@ -22,11 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', default = False, cast =bool)
+DEBUG = False
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS')
-
-
+ALLOWED_HOSTS = ['138.68.253.124']
 # Application definition
 
 INSTALLED_APPS = [
@@ -118,7 +116,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT  = 'home/boards/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static'),
 ]
